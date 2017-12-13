@@ -5,11 +5,16 @@
     padding: 0;  
   }
 
+  h1, h2, h3 {
+    margin-right: 10rem;
+  }
+
   .navbar {
     position: relative;
     min-height: 60px;
     margin-bottom: 20px;
     border: 1px solid transparent;
+    margin: 0;
   }
 
   .navbar-toggle {
@@ -36,11 +41,8 @@
   .box-yellow{
     background-color: #f7b617;
     color: white;
-    padding: 20px; 
-    height: 35vh;
-    width: 50%;
-    max-width: 80%;
-    float: right;
+    padding: 0 50px 30px 30px; 
+    width: 100%;
   }
 
   .box-yellow h3 img {
@@ -49,8 +51,38 @@
     padding: 0 0 0.5% 2%;
   }
 
+  .main-container{
+    background-image: url("../assets/images/taxi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
 
+  .second-container{
+    background-image: url("../assets/images/iPhone6Plus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
 
+  }
+
+  /* .box-transparent {
+    height: 50vh;
+  } */
+
+  .boton-main{
+    display: inline-block;
+    margin-left: 1rem;
+  }
 
   @media (min-width: 768px) {
   .navbar-nav {
