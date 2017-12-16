@@ -5,9 +5,6 @@
     padding: 0;  
   }
 
-  h1, h2, h3 {
-    margin-right: 10rem;
-  }
 
   .navbar {
     position: relative;
@@ -18,15 +15,9 @@
   }
 
   .navbar-toggle {
-    /* position: relative; */
     float: left; 
     padding: 9px 10px;
     margin-left: 15px;
-    /* margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px; */
   }
 
   .navbar-brand {
@@ -63,6 +54,14 @@
     overflow: hidden;
   }
 
+  
+  .boton-main{
+    display: inline-block;
+    margin-left: 1rem;
+  }
+
+  /* Segunda section */
+
   .section-yellow {
     background-color: #f7b617;
     /* align-items: flex-end; */
@@ -70,10 +69,14 @@
 
   .text-image{
     display: flex;
+    align-items: ;
     color: white;
   }
 
   .text-down {
+    color: white;
+    display: flex;
+    justify-content: space-between;
 
   }
 
@@ -82,17 +85,38 @@
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: space-between; /* align-items: center; */
     height: 100vh;
     border: 1px solid white;
-    margin: 10% 0;
+    margin: 30px 0 0 0;
   }
 
-  .boton-main{
-    display: inline-block;
-    margin-left: 1rem;
+  /* Tercera section */
+  .section-three{
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  filter:brightness(0.4);
+  }
+
+  .text-taxi{
+    color:white;
+    padding: 10%;
+    z-index: 100;
+  }
+
+  .boton-second{
+    background-color: #f7b617;
+    border: none;
+    color: white;
+    margin-left: 1.5rem;
   }
 
   @media (min-width: 768px) {
