@@ -63,21 +63,32 @@
     overflow: hidden;
   }
 
-  .second-container{
-    background-image: url("../assets/images/iPhone6Plus.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  .section-yellow {
+    background-color: #f7b617;
+    /* align-items: flex-end; */
+  }
+
+  .text-image{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100vh;
+    color: white;
+  }
+
+  .text-down {
 
   }
 
-  /* .box-transparent {
-    height: 50vh;
-  } */
+  .second-image {
+    background-image: url(../assets/images/iPhone6Plus.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    height: 100vh;
+    border: 1px solid white;
+    margin: 10% 0;
+  }
 
   .boton-main{
     display: inline-block;
