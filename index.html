@@ -8,6 +8,7 @@
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>lab-car-boilerplate</title>
 </head>
 <body>
@@ -81,20 +82,72 @@
   <!-- Creando seccion mapas -->
 <section>
   <div class="container-fluid section-yellow">
-    <div class="row"><h2>Tarifas</h2></div>
-    <div class="row"><h2>Consulta las tarifas LabCar aquí</h2></div>
-    <div class="row"></div>
-    <div class="row">
-        <button class="btn btn-default boton-three" type="submit">¡Traza ruta!</button>
+    <div class="row col-xs-12 col-md-4">
+      <div class="column text-padding">
+        <h2>Tarifas</h2>        
+        <h3>Consulta las tarifas LabCar aquí</h3>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group form-mapas">
+          <div class="icon-section">
+            <img src="assets/images/shape.png" alt="">
+          </div>
+          <div class="col-xs-10 col-sm-10">
+            <input type="text" class="form-control" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México, México">
+          </div>
+        </div>
+        <div class="form-group form-mapas2">
+          <div class="icon-section">
+            <img src="assets/images/shape2.png" alt="">
+          </div>
+          <div class="col-xs-10 col-sm-10">
+            <input type="text" class="form-control" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México, México">
+          </div>
+        </div>
+      </form>
+      <div class="btn-mapas">
+        <button type="button" class="btn btn-default"><b>¡TRAZA RUTA!</b></button> 
+      </div>
+    </div>
+    <div class="row col-xs-12 col-md-4">
+      <div class="column img-mapas">
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" width="100%" height="250" frameborder="0" style="border:0"></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-  
+  <!-- footer -->
+<footer>
+  <div class="container-fluid section-black">
+    <div class="row">
+      <div class="logo-white">
+        <img src="assets/images/logoBlanco.png" alt="">
+      </div>
+      <hr>
+      <div class="column col-xs-6">
+        <ul class="pages">
+          <li><a href="#">Viaja</a></li>
+          <li><a href="#">Conduce</a></li>
+          <li><a href="#">Ciudades</a></li>
+          <li><a href="#">Entregas</a></li>
+          <li><a href="#">¿Cómo funciona?</a></li>
+          <li><a href="#">Países</a></li>
+          <li><a href="#">Seguridad</a></li>
+        </ul>
+      </div>
+      <div class="column col-xs-6">
+        <ul class="social">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
-          
 
- 
-  
+        
     
 <!--Import jQuery before bootstrap.min.js-->
 <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>

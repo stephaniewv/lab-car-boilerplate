@@ -5,6 +5,14 @@
     padding: 0;  
   }
 
+  h1, h2, h3, h4 {
+    color: white;
+  }
+
+  hr{
+    margin: 0 15px 15px 15px;
+  }
+
 
   .navbar {
     position: relative;
@@ -117,6 +125,55 @@
     border: none;
     color: white;
     margin-left: 1.5rem;
+  }
+
+  /* Section maps */
+
+  .text-padding{
+    padding-top: 20%;
+  }
+
+  .icon-section{
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+
+  }
+
+  .form-mapas{
+    margin-top: 10%;
+
+  }
+
+  .btn-mapas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+  }
+
+  .img-mapas{
+    border: 1px solid white;
+    padding: 5%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+
+  /* footer */
+
+  .section-black{
+    background-color: #2b2b2b;
+  }
+
+  .logo-white>img{
+  height: 100%;
+  padding: 12px;
+  width: auto;
+  }
+
+  .pages a {
+    color: white;
+    text-decoration: none;
+    line-height: 2.5;
   }
 
   @media (min-width: 768px) {
